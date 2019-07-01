@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import Pokedex from './Pokedex';
 
+var EmilyBlog = require('./img/EmilyBlog.png');
+
 class Portfolio extends Component {
     static defaultProps = {
         projects : [
-            { id: 1, name: 'Emily\'s Adventures game', type: 'Unity 2D game', base_experience: 2018 },
-            { id: 2, name: 'Emily\'s Adventures blog', type: 'blog website', base_experience: 2019 },
-            { id: 3, name: 'Movie database', type: 'Python database app', base_experience: 2019 },
-            { id: 4, name: 'Nonprofit social media', type: 'video', base_experience: 2016 },
-            { id: 5, name: 'Ghoul Number Guess', type: 'Unity 2D game', base_experience: 2018 },
-            { id: 6, name: 'This web app', type: 'React front-end app', base_experience: 2019 }
+            { id: 1, name: 'Emily\'s Adventures game', type: 'Unity 2D game', year: 2018, base_experience: 1 },
+            { id: 2, name: 'Emily\'s Adventures blog', type: 'blog website', year: 2019, base_experience: 1, img: EmilyBlog },
+            { id: 3, name: 'Movie database', type: 'Python database app', year: 2019, base_experience: 1 },
+            { id: 4, name: 'Nonprofit social media', type: 'video', year: 2016, base_experience: 1 },
+            { id: 5, name: 'Ghoul Number Guess', type: 'Unity 2D game', year: 2018, base_experience: 1 },
+            { id: 6, name: 'This web app', type: 'React front-end app', year: 2019, base_experience: 1 }
         ]
     };
 

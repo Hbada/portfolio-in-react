@@ -20,6 +20,7 @@
 
 .Projectcard img {
     transition: all ease 500ms;
+    width: 80%;
 }
 
 .Projectcard img:hover {
