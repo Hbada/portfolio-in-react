@@ -12,7 +12,7 @@ class Projectcard extends Component {
         return ( 
             <div className="Projectcard">
                 <h1 className="Projectcard-title">{this.props.name}</h1>
-                <img src={this.props.img} alt="Screenshot of blog showing main game character and a welcome message" />
+                <img src={this.props.img} alt={this.props.alt} />
                 <div className="Projectcard-data">{this.props.type}</div>
                 <div className="Projectcard-data">{this.props.exp}</div>
             </div>
