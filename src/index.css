@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+  margin: 0;
+  font-family: Oswald, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eceff1;
+  color: #4d4d4d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
